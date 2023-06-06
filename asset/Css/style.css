@@ -464,12 +464,10 @@ a {
     border: 1px solid rgba(118, 118, 118, 0.25);
     border-top: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 .services-item__content:hover {
-    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
-    background: transparent;
-    border-radius: 20px;
-    cursor: pointer;
+    box-shadow: -6px 9px 20px -4px rgba(118, 118, 118, 0.25);
 }
 
 /* ----------------About-section----------- */
@@ -1095,7 +1093,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.footer-submit:hover .footer-submit__btn {
+.footer-submit__btn:hover {
     background: var(--primary-color);
     border: 1px solid #143c3c;
     transform: scale(0.9);
