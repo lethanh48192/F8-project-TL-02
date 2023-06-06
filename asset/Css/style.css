@@ -674,6 +674,11 @@ a {
 }
 .process__more {
     margin-left: 64px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+.process-content:hover .process__more {
+    padding-top: 0;
 }
 .process__name {
     --line-clamp: 1;
@@ -691,6 +696,13 @@ a {
     line-height: 1;
     color: #575d5e;
     text-decoration: underline;
+    opacity: 0;
+    transition-delay: 0.3s;
+    transition: 0.8s;
+}
+.process-content:hover .process__learm-more {
+    opacity: 1;
+    padding-top: 0;
 }
 .process__name:nth-child(2) {
     margin-left: 49px;
